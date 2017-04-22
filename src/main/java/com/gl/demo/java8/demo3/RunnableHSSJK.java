@@ -32,6 +32,13 @@ public class RunnableHSSJK {
 
 
     public static void main(String[] args) {
+
+          //Lambda表达式引用的局部变量必须是最终的（ final）或事实上最终的
+//        int portNumber = 1337;
+//        Runnable r = () -> System.out.println(portNumber);
+//        portNumber = 31337;
+
+
         process(r1);
         process(r2);
 
